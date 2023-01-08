@@ -1,7 +1,7 @@
 //your code here
 function increment(){
-    let vk=document.getElementsByTagName('input')[0];
-    let v=vk.value;
+    let vk=document.getElementsByTagName('h3')[0];
+    let v=vk.innerHTML;
     ++v
-    vk.value=v;
+    vk.innerHTML=v;
     }
